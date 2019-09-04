@@ -6,7 +6,13 @@ namespace StringPractice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("What is your first name?");
+
+            string firstName;
+            firstName = Console.ReadLine();
+
+            Console.WriteLine("your name is" + firstName);
+
         }
     }
 }
